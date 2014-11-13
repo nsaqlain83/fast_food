@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+#page, #page2, #page3, #page4, #page5, #page6, #page7 {
+	background: url(../images/bkgd_tile.jpg) repeat;
+	padding-bottom: 90px;
+}
+.logo {
+	margin: 0px;
+	padding: 0px;
+	width: auto;
+	height: 160px;
+	background: #FFF;
+	background: url(../images/header_logo.png) top no-repeat;
+}
+.header {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 230px;
+	background: #cab46f url(../images/header.png) top no-repeat;
+}
+#page .mainmenu {
+	margin: 5px;
+	padding: 0px;
+}
+#page .mainmenu li {
+	background: none;
+	border: none;
+}
+#page .mainmenu li a {
+	background: rgba(255, 255, 255, .6);
+	display: block;
+	border-radius: 10px;
+	margin-bottom: 5px;
+}
+#page .mainmenu li a:hover {
+	background: rgba(255, 255, 255, .9);
+}
+#page .footer, #page2 .footer, #page3 .footer, #page4 .footer, #page5 .footer, #page6 .footer, #page7 .footer {
+	width: 100%;
+	height: auto;
+	padding: 10px;
+	margin: 0px;
+	background: #831c02;
+	text-align: center;
+	border: 0px;
+	bottom: 0px;
+	clear: both;
+}
+#page2 .bodyCopy, #page3 .bodyCopy, #page4 .bodyCopy, #page5 .bodyCopy, #page6 .bodyCopy, #page7 .bodyCopy {
+	background: rgba(255, 255, 255, .6);
+	border-radius: 5px;
+	margin: 10px;
+	padding: 10px;
+	height: auto;
+	overflow: hidden;
+}
+/* Content Handling Style */
+h2 {
+	text-align: center;
+	margin: auto;
+	color: #831c02;
+	border-bottom: 1px dotted #831c02;
+}
+#page2 a, #page6 a, #page7 a {
+	background: rgba(121, 24, 6, 0.5);
+	border: none;
+	padding: 0;
+	box-shadow: none;
+}
+#page6 a:hover {
+	background: rgba(121, 24, 6, 0.8);
+}
+/* Page Filter */
+.ui-content li {
+	display: block;
+	border: none;
+	background: none;
+	padding: 0;
+	margin: 10px 0 0 0;
+}
+.ui-content form {
+	border-radius: 0;
+	border: none;
+	background: none;
+	padding: 0;
+	margin: 10px 0 0 0;
+}
