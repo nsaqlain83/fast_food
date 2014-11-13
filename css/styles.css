@@ -44,7 +44,7 @@ body {
 #page .footer, #page2 .footer, #page3 .footer, #page4 .footer, #page5 .footer, #page6 .footer, #page7 .footer {
 	width: 100%;
 	height: auto;
-	padding: 10px;
+	padding: 10px 0;
 	margin: 0px;
 	background: #831c02;
 	text-align: center;
